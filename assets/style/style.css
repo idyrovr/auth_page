@@ -1,0 +1,155 @@
+@import "./reset.css";
+@import "fonts.css";
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+.grid__col-6 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.auth__right {
+  padding-bottom: 50px;
+}
+.auth__img {
+  background: url("../images/auth.png") no-repeat center/cover;
+  height: 100vh;
+}
+.auth__form {
+  width: 347px;
+}
+.auth__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #1A202C;
+}
+.auth__welcome {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2D3748;
+  margin-top: 5px;
+  margin-left: 86px;
+}
+.auth__cin {
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2D3748;
+  height: 50px;
+  margin-bottom: 11px;
+}
+.auth__lab {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4A5568;
+  margin-bottom: 11px;
+}
+.auth__login {
+  background: #04C45C;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  height: 50px;
+}
+.auth__combined {
+  margin: 28px 0;
+}
+.auth__forgot {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2C5282;
+}
+.auth__signup {
+  background: #2D3748;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  height: 50px;
+  border: none;
+}
+.auth__signup {
+  margin: 15px 0 162px;
+}
+.auth__signup svg {
+  margin-right: 11px;
+}
+.auth__join {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #616161;
+}
+.auth__join a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #2C5282;
+}
+
+.remember {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #F7FAFC;
+  border: 1px solid #E8E8E8;
+  margin-right: 11px;
+}
+.remember:before {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #1A202C;
+}
+
+.checkbox1:checked + .remember:before {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
